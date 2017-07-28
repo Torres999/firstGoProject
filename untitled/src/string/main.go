@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	//stringsFunc()
+	stringsFunc()
 	strconvFunc()
 }
 
@@ -18,12 +18,13 @@ func stringsFunc() {
 	s := "hello world"
 	fmt.Println(s)
 
-	fmt.Println(strings.Contains(s, "hello"))
-	fmt.Println(strings.Index(s, "h"))
+	fmt.Println("Contains:", strings.Contains(s, "hello"))
+	fmt.Println("Count:", strings.Count(s, "o"))
+	fmt.Println("Index:", strings.Index(s, "h"))
 
 	var s1 string
 	s1 = "123*134*36*678"
-	fmt.Println(strings.Split(s1, "*")[1]) //134
+	fmt.Println("Split & Get Arrays:", strings.Split(s1, "*")[1]) //134
 }
 
 /*
