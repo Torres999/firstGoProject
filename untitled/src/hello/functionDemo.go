@@ -19,8 +19,18 @@ func main() {
 
 	//4
 	sum(1, 2, 3)
+
+	//5
+	a, b := multipleRtn()
+	fmt.Println(a)
+	fmt.Println(b)
+	_, c := multipleRtn()
+	fmt.Println(c)
 }
 
+/*
+方法／返回值
+ */
 func plus(a int, b int) int {
 	return a + b
 }
@@ -29,6 +39,16 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
+/*
+Multiple Return Values
+ */
+func multipleRtn() (int, int) {
+	return 3, 7
+}
+
+/*
+Variadic Functions:多参数方法
+ */
 func sum(nums ...int) {
 	fmt.Println("nums:", nums, " ")
 	total := 0
