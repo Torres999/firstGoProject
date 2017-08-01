@@ -7,7 +7,7 @@
     <SOURCES />
     <excluded>
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/untitled" />
+      <root url="file://$PROJECT_DIR$/demo" />
     </excluded>
   </library>
 </component>
