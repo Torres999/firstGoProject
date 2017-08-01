@@ -6,6 +6,9 @@ type rect struct {
 	width, height int
 }
 
+/*
+参数可以使用指针，区别与interface
+ */
 func (r *rect) area() int {
 	return r.width * r.height
 }

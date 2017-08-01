@@ -15,6 +15,7 @@ func main() {
 	fmt.Println(person{age:14})
 
 	s := person{name: "Sean", age: 50}
+	//s = &person{name: "Sean", age: 50}
 	fmt.Println("Getter:", s.name)
 	fmt.Println("Getter:", s.age)
 
