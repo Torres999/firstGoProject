@@ -16,9 +16,11 @@ func main() {
 
 	fmt.Scanln(&input)
 
+	//使用了go，所以没打印出来going，如果去掉go就会直接打印going
 	go func(msg string) {
+		fmt.Scanln(&input)
 		fmt.Println(msg)
-	}("going")
+	}("going")//():匿名函数会马上执行
 
 	//var input string
 	//fmt.Scanln(&input)
