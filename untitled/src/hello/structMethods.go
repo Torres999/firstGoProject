@@ -7,7 +7,7 @@ type rect struct {
 }
 
 /*
-参数可以使用指针，区别与interface
+	结构体中定义的方法中方法的参数可以使用指针，与interface实现方法中的方法参数可以使用指针一样
  */
 func (r *rect) area() int {
 	return r.width * r.height
