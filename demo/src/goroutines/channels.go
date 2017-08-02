@@ -25,4 +25,23 @@ func main() {
 	// By default sends and receives block until both the sender and receiver are ready.
 	// This property allowed us to wait at the end of our program for the "ping" message
 	// without having to use any other synchronization.
+
+	fmt.Println("开启5个routine,先到先出")//channelDirections.go
+	// 开启5个routine
+	for i := 0; i < 5; i++ {
+		go foo(i)
+	}
+
+	// 取出信道中的数据
+	for i := 0; i < 5; i++ {
+		fmt.Println(<-ch)
+	}
+}
+
+var ch chan int = make(chan int)
+
+func foo(id int) {
+	//id: 这个routine的标号
+	fmt.Println("id:", id)
+	ch <- id
 }

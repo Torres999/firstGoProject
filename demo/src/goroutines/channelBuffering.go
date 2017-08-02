@@ -19,8 +19,12 @@ func main() {
 	messages <- str1
 	fmt.Println(<-messages)
 
+	/*
+		缓冲信道会在满容量的时候加锁。如果不把容量中的取走，不管有没有取数据的代码都会报错 - deadlock!
+	 */
 	messages <- "123"
 	messages <- "456"
+	//messages <- "456"//fatal error: all goroutines are asleep - deadlock!
 	fmt.Println(<-messages)
 	fmt.Println(<-messages)
 }
