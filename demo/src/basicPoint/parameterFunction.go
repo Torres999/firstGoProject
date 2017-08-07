@@ -44,6 +44,19 @@ func Filter(vs []string, f func(string) bool) []string {
 	return vsf
 }
 
+/*
+ array don't have delete function
+ */
+//func Filter1(vs []string, f func(string) bool) []string {
+//	vsf := make([]string, 0)
+//	for _, v := range vs {
+//		if !f(v) {
+//			delete(vs, v)
+//		}
+//	}
+//	return vsf
+//}
+
 func Map(vs []string, f func(string) string) []string {
 	vsm := make([]string, len(vs))
 	for i, v := range vs {
@@ -69,6 +82,10 @@ func main() {
 	fmt.Println(Filter(strs, func(v string) bool {
 		return strings.Contains(v, "e")
 	}))
+
+	//fmt.Println(Filter1(strs, func(v string) bool {
+	//	return strings.Contains(v, "e")
+	//}))
 
 	fmt.Println(Map(strs, strings.ToUpper))
 }
