@@ -6,6 +6,9 @@ import (
 	"os"
 )
 
+/**
+	struct中的变量首字母必须大写
+ */
 type Response1 struct {
 	Page   int
 	Fruits []string
@@ -13,6 +16,12 @@ type Response1 struct {
 type Response2 struct {
 	Page   int      `json:"page"`
 	Fruits []string `json:"fruits"`
+}
+
+type Response3 struct {
+	Page   int      `json:"page"`
+	Code   int      `json:"code"`
+	Info string    `json:"info"`
 }
 
 func main() {
@@ -84,4 +93,12 @@ func main() {
 	enc := json.NewEncoder(os.Stdout)
 	d := map[string]int{"apple": 5, "lettuce": 7}
 	enc.Encode(d)
+
+	fmt.Println("-----7-----")
+
+	dataString := `{"page":1,"code":1,"info":"OK","data":{"cooperationNum":6,"shelfProductNum":894,"factorySellNum":2371}}`
+	//dataString := `{"code":2,"page": 1, "info":"OK"}`
+	res1 := Response3{}
+	json.Unmarshal([]byte(dataString), &res1)
+	fmt.Println(res1)
 }

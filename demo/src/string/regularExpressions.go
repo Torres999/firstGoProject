@@ -32,4 +32,13 @@ func main() {
 	in := []byte("a peach")
 	out := r.ReplaceAllFunc(in, bytes.ToUpper)
 	fmt.Println(string(out))
+
+
+	fmt.Println("3-----------")
+	a, _ := regexp.Compile("[1,9]{1,3}(\\.[1,9]{1,3}){3}")
+	fmt.Println(a.MatchString("192.168.12.1"))
+
+	fmt.Println("4-----------")
+	b, _ := regexp.Compile("\\d{1,3}(\\.\\d{1,3}){3}")
+	fmt.Println(b.MatchString("123.12.12.12"))
 }

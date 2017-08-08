@@ -28,6 +28,18 @@
 3: 键盘输入
 	fmt.Scanln(&str)，参考channels.go
 
+4: 接口
+	多个实现的时候，把接口转化成具体某一个实现类：errorsInterface.go
+
+5: 反射
+    #https://www.golangtc.com/t/53317f90320b5261e0000058
+	reflect是用来取interface的内容的，而空interface（interface{}）主要包括Value（data域）、Type（itab）两个对象。
+
+	Interface就存两个指针，一个是指向数据的一些类型信息；另一个数据域的指针指向的是一个全新的拷贝，不是直接把指针指向了原对象，对于它的修
+	改对原来的数据是没有影响的。如果想要修改原值，就要用指针。再用p.Elem就能获得可以修改的对象了。
+
+	如果是channel，slice，func也一样，Value存的是空值，Type存的是 func(int,int)(int,int)或者func(float,float)(float,float)。
+
 
 
 
