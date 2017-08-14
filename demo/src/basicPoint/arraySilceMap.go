@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	//arrayFunc()
+	arrayFunc()
 
-	//slicesFunc()
+	slicesFunc()
 
-	mapFunc()
+	//mapFunc()
 }
 
 
@@ -38,7 +38,9 @@ func arrayFunc() {
 }
 
 /*
-Array是在声明的时候都确定了长度，之后不可更改。Slice和数组类似，也是表示一个有序元素，但这个序列的长度可变。
+区别：1.数组是值类型，切片是引用类型，在使用的时候有区别。
+       如果用一个数组A创建新数组B的时候，需要将A中的所有元素全部复制一遍过去。如果是切片的话，就会指向原来的数据。
+	 2.Array是在声明的时候都确定了长度，之后不可更改。Slice和数组类似，也是表示一个有序元素，但这个序列的长度可变。
 */
 func slicesFunc() {
 	s := make([]string, 3)
@@ -65,6 +67,8 @@ func slicesFunc() {
 	//这种创建slice的方式，不需要make()函数。
 	l := s[2:5]
 	fmt.Println("s[2:5]:", l)
+	fmt.Println("地址比较，切片前value=c的元素地址:", &s[2])//0xc420068080
+	fmt.Println("地址比较，切片后value=c的元素地址:", &l[0])//0xc420068080
 
 	l = s[:5]
 	fmt.Println("s[:5]:", l)
@@ -84,6 +88,15 @@ func slicesFunc() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+
+	// 切片地址可变
+	twoC := make([]int, 3, 5)
+	twoC = append(twoC, 1, 2, 3, 4)
+	for _, v := range twoC {
+		fmt.Printf("%d,", v)
+	}
+	fmt.Printf("\n新分配内存后切片容量%d", cap(twoC))
+	fmt.Printf("\n新分配内存后切片长度%d", len(twoC))
 }
 
 func mapFunc() {
