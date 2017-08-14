@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 
 		for t := range timer2.C {
 			//<-timer2.C
-			fmt.Println("Timer 2 expired",t)
+			fmt.Println("Timer 2 expired", t)
 		}
 	}()
 	time.Sleep(time.Second * 10)

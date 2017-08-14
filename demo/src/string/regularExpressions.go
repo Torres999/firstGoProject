@@ -1,9 +1,9 @@
 package main
 
 import (
-	"regexp"
-	"fmt"
 	"bytes"
+	"fmt"
+	"regexp"
 )
 
 func main() {
@@ -13,8 +13,8 @@ func main() {
 	r, _ := regexp.Compile("p([a-z]+)ch")
 	fmt.Println(r.MatchString("peach"))
 	fmt.Println(r.FindString("peach punch"))
-	fmt.Println(r.FindStringIndex("peach punch"))//[0 5]
-	fmt.Println(r.FindStringSubmatch("peach punch"))////?????
+	fmt.Println(r.FindStringIndex("peach punch"))    //[0 5]
+	fmt.Println(r.FindStringSubmatch("peach punch")) ////?????
 	fmt.Println(r.FindStringSubmatchIndex("peach punch"))
 	fmt.Println(r.FindAllString("peach punch pinch", -1))
 	fmt.Println(r.FindAllStringSubmatchIndex("peach punch pinch", -1))
@@ -32,7 +32,6 @@ func main() {
 	in := []byte("a peach")
 	out := r.ReplaceAllFunc(in, bytes.ToUpper)
 	fmt.Println(string(out))
-
 
 	fmt.Println("3-----------")
 	a, _ := regexp.Compile("[1,9]{1,3}(\\.[1,9]{1,3}){3}")

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"sort"
 	"fmt"
+	"sort"
 )
 
 type ByLength []string
@@ -16,7 +16,7 @@ func (s ByLength) Swap(i, j int) {
 }
 
 func (s ByLength) Less(i, j int) bool {
-	return len(s[i]) < len(s[j])//sort by len
+	return len(s[i]) < len(s[j]) //sort by len
 	//return s[i] > s[j]//sort by desc
 }
 

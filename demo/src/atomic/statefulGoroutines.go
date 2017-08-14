@@ -1,10 +1,10 @@
 package main
 
 import (
-	"sync/atomic"
-	"time"
 	"fmt"
 	"math/rand"
+	"sync/atomic"
+	"time"
 )
 
 type readOp struct {

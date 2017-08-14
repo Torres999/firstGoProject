@@ -24,7 +24,7 @@ func intSeq1() func() int {
 
 /**
 闭包里的非传递参数外部变量值是传引用的，在闭包函数里那个i就是外部非闭包函数自己的参数，所以是相当于引用了外部的变量
- */
+*/
 func main() {
 	nextInt0 := intSeq1()
 	fmt.Println(nextInt0())

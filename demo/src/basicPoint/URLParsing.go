@@ -1,9 +1,9 @@
 package main
 
 import (
-	"net/url"
 	"fmt"
 	"net"
+	"net/url"
 )
 
 func main() {

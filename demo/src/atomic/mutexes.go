@@ -1,11 +1,11 @@
 package main
 
 import (
+	"fmt"
+	"math/rand"
+	"sync"
 	"sync/atomic"
 	"time"
-	"fmt"
-	"sync"
-	"math/rand"
 )
 
 func main() {

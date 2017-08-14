@@ -7,8 +7,8 @@ import (
 )
 
 /**
-	struct中的变量首字母必须大写
- */
+struct中的变量首字母必须大写
+*/
 type Response1 struct {
 	Page   int
 	Fruits []string
@@ -19,9 +19,9 @@ type Response2 struct {
 }
 
 type Response3 struct {
-	Page   int      `json:"page"`
-	Code   int      `json:"code"`
-	Info string    `json:"info"`
+	Page int    `json:"page"`
+	Code int    `json:"code"`
+	Info string `json:"info"`
 }
 
 func main() {
@@ -57,7 +57,7 @@ func main() {
 
 	fmt.Println("-----3-----")
 
-	res2D := &Response2{//指定序列化后的key
+	res2D := &Response2{ //指定序列化后的key
 		Page:   1,
 		Fruits: []string{"apple", "peach", "pear"}}
 	res2B, _ := json.Marshal(res2D)

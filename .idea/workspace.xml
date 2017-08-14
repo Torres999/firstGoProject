@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7d61f6-7cdf-4f65-a3c2-dc1e675221f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/src/database/main.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__untitled_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/demo.iml" afterPath="$PROJECT_DIR$/demo/demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/atomic/atomicAdd.go" afterPath="$PROJECT_DIR$/demo/src/atomic/atomicAdd.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/atomic/mutexes.go" afterPath="$PROJECT_DIR$/demo/src/atomic/mutexes.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/atomic/statefulGoroutines.go" afterPath="$PROJECT_DIR$/demo/src/atomic/statefulGoroutines.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/Command-LineArguments.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/Command-LineArguments.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/EnvironmentVariables.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/EnvironmentVariables.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/URLParsing.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/URLParsing.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/constants.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/constants.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/errorPanic.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/errorPanic.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/errorsInterface.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/errorsInterface.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/forIfElse.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/forIfElse.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/functionDemo.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/functionDemo.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/interfaceDemo.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/interfaceDemo.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/numberParase.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/numberParase.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/parameterFunction.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/parameterFunction.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/parameterRefValue.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/parameterRefValue.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/randomNumbers.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/randomNumbers.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/range.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/range.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/struct.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/struct.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/basicPoint/structMethods.go" afterPath="$PROJECT_DIR$/demo/src/basicPoint/structMethods.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/defer/defer.go" afterPath="$PROJECT_DIR$/demo/src/defer/defer.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelBuffering.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelBuffering.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelDirections.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelDirections.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRange.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelRange.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRangeClosingChannels.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelRangeClosingChannels.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRangeOverChannels.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelRangeOverChannels.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelSynchronization.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channelSynchronization.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/channels.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/channels.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/goroutine.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/goroutine.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/nonBlockingChannelOperations.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/nonBlockingChannelOperations.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/goroutines/selectGoRoutineChannel.go" afterPath="$PROJECT_DIR$/demo/src/goroutines/selectGoRoutineChannel.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/http/main.go" afterPath="$PROJECT_DIR$/demo/src/http/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/io/read.go" afterPath="$PROJECT_DIR$/demo/src/io/read.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/io/write.go" afterPath="$PROJECT_DIR$/demo/src/io/write.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/reflect/main.go" afterPath="$PROJECT_DIR$/demo/src/reflect/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/serializer/main.go" afterPath="$PROJECT_DIR$/demo/src/serializer/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/shell/Exec'ing Processes.go" afterPath="$PROJECT_DIR$/demo/src/shell/Exec'ing Processes.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/shell/Exit.go" afterPath="$PROJECT_DIR$/demo/src/shell/Exit.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/shell/Signals.go" afterPath="$PROJECT_DIR$/demo/src/shell/Signals.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/shell/Spawning Processes.go" afterPath="$PROJECT_DIR$/demo/src/shell/Spawning Processes.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/sorting/sortDemo.go" afterPath="$PROJECT_DIR$/demo/src/sorting/sortDemo.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/sorting/sortFunction.go" afterPath="$PROJECT_DIR$/demo/src/sorting/sortFunction.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/string/json.go" afterPath="$PROJECT_DIR$/demo/src/string/json.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/string/main.go" afterPath="$PROJECT_DIR$/demo/src/string/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/string/main1.go" afterPath="$PROJECT_DIR$/demo/src/string/main1.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/string/regularExpressions.go" afterPath="$PROJECT_DIR$/demo/src/string/regularExpressions.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/time/epoch.go" afterPath="$PROJECT_DIR$/demo/src/time/epoch.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/time/main.go" afterPath="$PROJECT_DIR$/demo/src/time/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/time/ticker.go" afterPath="$PROJECT_DIR$/demo/src/time/ticker.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/time/timeout.go" afterPath="$PROJECT_DIR$/demo/src/time/timeout.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/src/time/timers.go" afterPath="$PROJECT_DIR$/demo/src/time/timers.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firstGoProject.iml" afterPath="$PROJECT_DIR$/firstGoProject.iml" />
     </list>
     <ignored path="firstGoProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,21 +84,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="constants.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/constants.go">
+      <file leaf-file-name="goLibraries.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/goLibraries.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arraySilceMap.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go">
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/database/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20415">
+              <caret line="1361" column="17" lean-forward="false" selection-start-line="1361" selection-start-column="17" selection-end-line="1361" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GOPATH__firstGoProject_.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GOPATH__demo_.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functionClosures.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encodings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +204,9 @@
       <find>多</find>
       <find>实现</find>
       <find>.(type)</find>
+      <find>PROJECT_DIR</find>
+      <find>$PROJECT_DIR$</find>
+      <find>$PROJECT_DIR$/..</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,10 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/goroutines/channelDirections.go" />
-        <option value="$PROJECT_DIR$/demo/src/goroutines/channels.go" />
-        <option value="$PROJECT_DIR$/demo/src/goroutines/channelSynchronization.go" />
-        <option value="$PROJECT_DIR$/demo/src/string/main.go" />
         <option value="$PROJECT_DIR$/demo/src/goroutines/selectGoRoutineChannel.go" />
         <option value="$PROJECT_DIR$/demo/src/time/timeout.go" />
         <option value="$PROJECT_DIR$/demo/src/goroutines/nonBlockingChannelOperations.go" />
@@ -125,11 +262,15 @@
         <option value="$PROJECT_DIR$/demo/src/basicPoint/errorsInterface.go" />
         <option value="$PROJECT_DIR$/demo/src/reflect/mian.go" />
         <option value="$PROJECT_DIR$/demo/src/Memo.yaml" />
-        <option value="$PROJECT_DIR$/demo/src/reflect/main.go" />
         <option value="$PROJECT_DIR$/demo/src/string/json.go" />
         <option value="$PROJECT_DIR$/demo/src/http/main.go" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go" />
+        <option value="$PROJECT_DIR$/demo/src/reflect/main.go" />
+        <option value="$PROJECT_DIR$/demo/src/database/main.go" />
+        <option value="$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml" />
+        <option value="$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go" />
       </list>
     </option>
   </component>
@@ -188,8 +329,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -472,6 +611,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="basicPoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -498,8 +659,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstGoProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -532,7 +727,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1058" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -550,13 +745,7 @@
       <recent name="D:\02-Java\java\projects\Intellij Idea\svn\firstGoProject\untitled" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run arraySilceMap.go">
-    <configuration default="false" name="go run formatting.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo/src/string/formatting.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run main.go (2)">
     <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -998,20 +1187,25 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="go run main.go (2)" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo/src/database/main.go" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run formatting.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
       <item index="3" class="java.lang.String" itemvalue="Go Single File.go run json.go" />
       <item index="4" class="java.lang.String" itemvalue="Go Single File.go run arraySilceMap.go" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run arraySilceMap.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run json.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run formatting.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run arraySilceMap.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run json.go" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1056,16 +1250,20 @@
       <workItem from="1501551897102" duration="40114000" />
       <workItem from="1502000990307" duration="20021000" />
       <workItem from="1502415622771" duration="3022000" />
-      <workItem from="1502673774864" duration="1073000" />
+      <workItem from="1502673774864" duration="8229000" />
+      <workItem from="1502689539249" duration="873000" />
+      <workItem from="1502690444052" duration="128000" />
+      <workItem from="1502690604763" duration="400000" />
+      <workItem from="1502691035284" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85597000" />
+    <option name="totallyTimeSpent" value="94246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1075,20 +1273,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3848684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57730263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4161184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27960527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21486267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21728595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1124,111 +1322,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/src/time/epoch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/time/timers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/time/timeFormattingParsing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/randomNumbers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/URLParsing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/Base64Encoding.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/io/write.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/io/read.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/Command-LineArguments.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/EnvironmentVariables.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/shell/Spawning Processes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/shell/Exec'ing Processes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/shell/Signals.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/parameterRefValue.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/string/regularExpressions.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/sorting/sortDemo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1404,13 +1497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/reflect/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/header.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1453,18 +1539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/constants.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="120">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,15 +1550,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="156" column="17" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="1410">
+          <caret line="94" column="28" lean-forward="false" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/reflect/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/database/sql/sql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20130">
+          <caret line="1354" column="14" lean-forward="false" selection-start-line="1354" selection-start-column="14" selection-end-line="1354" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyleSettings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/goLibraries.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20415">
+          <caret line="1361" column="17" lean-forward="false" selection-start-line="1361" selection-start-column="17" selection-end-line="1361" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/database/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1501,7 +1712,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1536,7 +1747,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>untitled</last-edited>
+          <last-edited>demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1561,6 +1772,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>GOPATH &lt;firstGoProject&gt;</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

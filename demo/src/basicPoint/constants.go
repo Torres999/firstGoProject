@@ -27,7 +27,7 @@ func basicTypeFunc() {
 	fmt.Printf("hello " + a)
 
 	var c, b int = 1, 2
-	fmt.Println("c + b =", c + b)
+	fmt.Println("c + b =", c+b)
 	fmt.Println("true && false =", true && false)
 	fmt.Println("true || false =", true || false)
 	fmt.Println("!true =", !true)

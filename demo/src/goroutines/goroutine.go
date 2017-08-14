@@ -20,7 +20,7 @@ func main() {
 	go func(msg string) {
 		fmt.Scanln(&input)
 		fmt.Println(msg)
-	}("going")//():匿名函数会马上执行
+	}("going") //():匿名函数会马上执行
 
 	//var input string
 	//fmt.Scanln(&input)

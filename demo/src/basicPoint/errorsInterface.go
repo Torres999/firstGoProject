@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 )
 
 func f1(arg int) (int, error) {
@@ -21,7 +21,7 @@ type argError struct {
 It’s possible to use custom types as errors by implementing the Error()
 method on them. Here’s a variant on the example above that uses a custom
 type to explicitly represent an argument error.
- */
+*/
 //@Overwrite
 func (e *argError) Error() string {
 	return fmt.Sprintf("%d ==== %s", e.arg, e.prob)
@@ -33,7 +33,6 @@ func f2(arg int) (int, error) {
 	}
 	return arg + 3, nil
 }
-
 
 func main() {
 	//for _, i := range []int{7, 42} {//_:index  i:value
@@ -57,7 +56,7 @@ func main() {
 	if ae, ok := e.(*argError); ok { // e.(*argError)：Error有多个实现的时候，指定将Error转换成ergError对象
 		fmt.Println(&argError{42, "can't work with it"})
 		fmt.Println(e)
-		fmt.Println("ae:",ae)
+		fmt.Println("ae:", ae)
 		fmt.Println(ae.arg)
 		fmt.Println(ae.prob)
 		fmt.Println(ok)
@@ -89,30 +88,30 @@ func main() {
 	// 一个接口有多个实现，用b.(*testStruct2)的方式将接口转换成testStruct2对象;如果不转换的话只能调用接口中的Dalin()方法
 	//========================================
 	fmt.Println("3=========")
-	a,b := ff(42)
-	fmt.Println("a:",a)
-	c,d := b.(*testStruct2)
-	fmt.Println("c:",c.str)
-	fmt.Println("c:",c.Dalin())
-	fmt.Println("d:",d)
+	a, b := ff(42)
+	fmt.Println("a:", a)
+	c, d := b.(*testStruct2)
+	fmt.Println("c:", c.str)
+	fmt.Println("c:", c.Dalin())
+	fmt.Println("d:", d)
 
 	fmt.Println("4=========")
-	var interfaceObj1 testInterface  = &testStruct1{"123asdf"}
-	var interfaceObj2 testInterface  = new(testStruct2)
+	var interfaceObj1 testInterface = &testStruct1{"123asdf"}
+	var interfaceObj2 testInterface = new(testStruct2)
 	interfaceObj2.(*testStruct2).str = "2341234"
-	fmt.Println("interfaceObj1:",interfaceObj1)
-	fmt.Println("interfaceObj2:",interfaceObj2)
+	fmt.Println("interfaceObj1:", interfaceObj1)
+	fmt.Println("interfaceObj2:", interfaceObj2)
 }
+
 //========================================
 // 一个接口有多个实现，用b.(*testStruct2)的方式将接口转换成testStruct2对象;如果不转换的话只能调用接口中的Dalin()方法
 //========================================
-func ff(arg int) (int, testInterface) {//返回的是接口对象，但是具体的实现是实现类对象
+func ff(arg int) (int, testInterface) { //返回的是接口对象，但是具体的实现是实现类对象
 	if arg == 42 {
 		return -1, &testStruct2{"asfdasgf"}
 	}
 	return arg + 3, nil
 }
-
 
 type testStruct1 struct {
 	str string
@@ -121,8 +120,6 @@ type testStruct1 struct {
 func (t testStruct1) Dalin() string {
 	return "Hello Dalin111"
 }
-
-
 
 type testStruct2 struct {
 	str string
@@ -136,9 +133,8 @@ type testInterface interface {
 	//Dalin() string
 	Dalin() (str string)
 }
+
 //========================================
-
-
 
 type Customerror struct {
 	infoa string

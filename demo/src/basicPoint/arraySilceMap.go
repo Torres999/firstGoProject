@@ -11,7 +11,6 @@ func main() {
 	//mapFunc()
 }
 
-
 /*
 Array是在声明的时候都确定了长度，之后不可更改。Slice和数组类似，也是表示一个有序元素，但这个序列的长度可变。
 */
@@ -67,8 +66,8 @@ func slicesFunc() {
 	//这种创建slice的方式，不需要make()函数。
 	l := s[2:5]
 	fmt.Println("s[2:5]:", l)
-	fmt.Println("地址比较，切片前value=c的元素地址:", &s[2])//0xc420068080
-	fmt.Println("地址比较，切片后value=c的元素地址:", &l[0])//0xc420068080
+	fmt.Println("地址比较，切片前value=c的元素地址:", &s[2]) //0xc420068080
+	fmt.Println("地址比较，切片后value=c的元素地址:", &l[0]) //0xc420068080
 
 	l = s[:5]
 	fmt.Println("s[:5]:", l)
@@ -115,14 +114,14 @@ func mapFunc() {
 	//map 每次返回的数据有两部分组成：值 + 是否存在，如果用一个变量接收就是value
 	//是否存在可以用来区分改key对应的value为“”或者0和改key不存在的情况
 	_, prs := m["k2"]
-	fmt.Println("prs:", prs)//是否存在
+	fmt.Println("prs:", prs) //是否存在
 	qq := m["k2"]
-	fmt.Println("qq:", qq)//值
+	fmt.Println("qq:", qq) //值
 	aa, _ := m["k2"]
-	fmt.Println("aa:", aa)//值
+	fmt.Println("aa:", aa) //值
 	bb, cc := m["k2"]
-	fmt.Println("value:", bb)//值
-	fmt.Println("exist:", cc)//是否存在
+	fmt.Println("value:", bb) //值
+	fmt.Println("exist:", cc) //是否存在
 
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)

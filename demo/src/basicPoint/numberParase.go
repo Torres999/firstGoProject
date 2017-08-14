@@ -1,13 +1,13 @@
 package main
 
 import (
-	"strconv"
 	"fmt"
+	"strconv"
 )
 
 /*
 format参考：string.formating.go
- */
+*/
 func main() {
 	f, _ := strconv.ParseFloat("1.234", 64)
 	fmt.Println(f)

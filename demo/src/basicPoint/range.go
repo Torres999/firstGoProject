@@ -22,7 +22,7 @@ func main() {
 
 	kvs := map[string]string{"a": "apple", "b": "banana"}
 	for k, v := range kvs {
-		fmt.Printf("%s -> %s\n", k, v)// string替换符
+		fmt.Printf("%s -> %s\n", k, v) // string替换符
 	}
 
 	fmt.Println("=====================")
@@ -34,8 +34,8 @@ func main() {
 	fmt.Println("=====================")
 
 	/*
-	range on strings iterates over Unicode code points. The first value is the starting byte index of the rune and the second the rune itself.
-	 */
+		range on strings iterates over Unicode code points. The first value is the starting byte index of the rune and the second the rune itself.
+	*/
 	for i, c := range "go1" {
 		fmt.Println(i, c)
 	}
@@ -43,8 +43,8 @@ func main() {
 	fmt.Println("=====================")
 
 	/*
-	Multiple Return Values
-	 */
+		Multiple Return Values
+	*/
 	a, b := vals()
 	fmt.Println(a)
 	fmt.Println(b)

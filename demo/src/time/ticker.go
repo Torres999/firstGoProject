@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -17,10 +17,9 @@ func main() {
 	ticker.Stop()
 	fmt.Println("Ticker stopped")
 
-
 	/*
-	Ticker和Timer的区别：timer只会执行一次
-	 */
+		Ticker和Timer的区别：timer只会执行一次
+	*/
 	//ticker := time.NewTimer(time.Second )
 	//go func() {
 	//	for t := range ticker.C {

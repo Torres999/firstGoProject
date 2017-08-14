@@ -1,10 +1,10 @@
 package main
 
 import (
-	"net/http"
-	"fmt"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
+	"net/http"
 )
 
 type Data1 struct {
@@ -15,8 +15,8 @@ type Data1 struct {
 
 type Body1 struct {
 	Code int    `json:"code"`
-	Info string    `json:"info"`
-	Data Data1      `json:"data"`
+	Info string `json:"info"`
+	Data Data1  `json:"data"`
 }
 
 func printResponse(resp *http.Response, err error) {
@@ -35,7 +35,7 @@ func printResponse(resp *http.Response, err error) {
 			fmt.Println("err:", err)
 		}
 
-		fmt.Println("string(body):", string(body))//{"code":0,"info":"OK","data":{"cooperationNum":6,"shelfProductNum":894,"factorySellNum":2371}}
+		fmt.Println("string(body):", string(body)) //{"code":0,"info":"OK","data":{"cooperationNum":6,"shelfProductNum":894,"factorySellNum":2371}}
 
 		num := Body1{}
 		json.Unmarshal(body, &num)
@@ -48,13 +48,13 @@ func printResponse(resp *http.Response, err error) {
 		byt := make([]byte, resp.ContentLength)
 		resp.Body.Read(byt)
 		//内置的toString方法
-		fmt.Println("string(body):", string(byt))//{"code":5000,"info":"服务端异常","data":{}}
+		fmt.Println("string(body):", string(byt)) //{"code":5000,"info":"服务端异常","data":{}}
 
 		var dat map[string]interface{}
 		if err := json.Unmarshal(byt, &dat); err != nil {
 			panic(err)
 		}
-		fmt.Println(dat)//map[code:5000 info:服务端异常 data:map[]]
+		fmt.Println(dat) //map[code:5000 info:服务端异常 data:map[]]
 	}
 }
 

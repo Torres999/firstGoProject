@@ -10,9 +10,9 @@ type person struct {
 func main() {
 	fmt.Println(person{"jack", 14})
 
-	fmt.Println(person{name:"jack1"})//{jack1 0},int's default value is 0.
+	fmt.Println(person{name: "jack1"}) //{jack1 0},int's default value is 0.
 
-	fmt.Println(person{age:14})
+	fmt.Println(person{age: 14})
 
 	s := person{name: "Sean", age: 50}
 	//s = &person{name: "Sean", age: 50}

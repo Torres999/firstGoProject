@@ -31,7 +31,7 @@ func main() {
 /*
 方法／返回值
 结构体或者接口的实现方法格式：参数／方法／返回值
- */
+*/
 func plus(a int, b int) int {
 	return a + b
 }
@@ -42,14 +42,14 @@ func plusPlus(a, b, c int) int {
 
 /*
 Multiple Return Values
- */
+*/
 func multipleRtn() (int, int) {
 	return 3, 7
 }
 
 /*
 Variadic Functions:多参数方法
- */
+*/
 func sum(nums ...int) {
 	fmt.Println("nums:", nums, " ")
 	total := 0

@@ -13,7 +13,7 @@ func main() {
 
 /*
 两种运行方式
- */
+*/
 //$ go run exit.go
 //exit status 3
 

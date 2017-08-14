@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 
 /*
 strings
- */
+*/
 func stringsFunc() {
 	s := "hello world"
 	fmt.Println(s)
@@ -29,7 +29,7 @@ func stringsFunc() {
 
 /*
 strconv
- */
+*/
 func strconvFunc() {
 
 	fmt.Println(strconv.Itoa(123))

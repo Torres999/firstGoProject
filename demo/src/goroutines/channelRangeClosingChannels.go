@@ -6,9 +6,8 @@ func main() {
 	jobs := make(chan int, 5)
 	done := make(chan bool)
 
-
 	go func() {
-		for {// // 其他遍历方式参考channelsRangeOverChannels.go、channelRangeOverChannels.go
+		for { // // 其他遍历方式参考channelsRangeOverChannels.go、channelRangeOverChannels.go
 			j, more := <-jobs
 			if more {
 				fmt.Println("received job", j)

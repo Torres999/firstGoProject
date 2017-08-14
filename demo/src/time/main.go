@@ -28,7 +28,7 @@ func main() {
 	p(then.After(now))
 	p(then.Equal(now))
 	p("-----------")
-	diff := now.Sub(then)//返回时间间隔
+	diff := now.Sub(then) //返回时间间隔
 	p(diff)
 
 	p(diff.Hours())

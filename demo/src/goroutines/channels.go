@@ -15,7 +15,7 @@ func main() {
 	go func() {
 		fmt.Println("======")
 		messages <- str
-		messages <- "ping"//不会执行
+		messages <- "ping" //不会执行
 	}()
 
 	// The <-channel syntax receives a value from the channel.
@@ -26,7 +26,7 @@ func main() {
 	// This property allowed us to wait at the end of our program for the "ping" message
 	// without having to use any other synchronization.
 
-	fmt.Println("开启5个routine,先到先出")//channelDirections.go
+	fmt.Println("开启5个routine,先到先出") //channelDirections.go
 	// 开启5个routine
 	for i := 0; i < 5; i++ {
 		go foo(i)
