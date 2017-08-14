@@ -27,9 +27,11 @@ func main() {
 
 	//update(db)
 
-	updateInTransaction(db)
+	//updateInTransaction(db)
 
 	readData(db)
+
+	readSingleData(db)
 
 	defer db.Close()
 }
@@ -44,7 +46,7 @@ func readData(db *sql.DB) {
 			}
 		}
 	*/
-	rows, err := db.Query("select id, last_name from author where id < ?", 4)
+	rows, err := db.Query("select id, last_name from author where id < ?", 14)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -55,46 +57,48 @@ func readData(db *sql.DB) {
 	*/
 	defer rows.Close()
 
+	// columns
+	cln, clnError := rows.Columns()
+	if clnError != nil {
+		log.Fatal(clnError)
+	}
+	log.Println(cln)
+
+	////columnType
+	//clnType, clnTypeError := rows.ColumnTypes()
+	//if clnTypeError != nil {
+	//	log.Fatal(clnTypeError)
+	//}
+	////i := clnType[0].ScanType().NumField()
+	////log.Println(clnType[0].ScanType().Field(i).Name)
+	//log.Println(clnType)
+
 	/*
 		如果循环中发生错误会自动运行rows.Close()，用rows.Err()接收这个错误，Close方法可以多次调用。循环之后判断error是非常必要的。
 
 	*/
 	for rows.Next() {
-		//// columns
-		//cln, clnError := rows.Columns()
-		//if clnError != nil {
-		//	log.Fatal(clnError)
-		//}
-		//log.Println(cln)
-
-		////columnType
-		//clnType, clnTypeError := rows.ColumnTypes()
-		//if clnTypeError != nil {
-		//	log.Fatal(clnTypeError)
-		//}
-		////i := clnType[0].ScanType().NumField()
-		////log.Println(clnType[0].ScanType().Field(i).Name)
-		//log.Println(clnType)
-
 		//get Data
 		err := rows.Scan(&id, &last_name)
 		if err != nil {
 			log.Fatal(err)
 		}
 		fmt.Println(id, last_name)
-
-		//single data get
-		var name string
-		err = db.QueryRow("select last_name as name from author where id = ?", 1).Scan(&name)
-		if err != nil {
-			log.Fatal(err)
-		}
-		fmt.Println("name:", name)
 	}
 	err = rows.Err()
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func readSingleData(db *sql.DB)  {
+	var name string
+	err := db.QueryRow("select last_name as name from author where id = ?", 1).Scan(&name)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("[readSingleData]Id = 1, Name:", name)
+
 }
 
 func update(db *sql.DB) {
