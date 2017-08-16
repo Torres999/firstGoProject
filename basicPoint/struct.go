@@ -27,4 +27,10 @@ func main() {
 
 	sp.age = 51
 	fmt.Println(sp.age)
+
+	a1 := new(person)
+	var a2 *person = new(person)
+	fmt.Println(a1)
+	fmt.Println(a2)
+	fmt.Println(a2 == a1)
 }

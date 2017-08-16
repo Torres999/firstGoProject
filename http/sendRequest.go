@@ -19,6 +19,32 @@ type Body1 struct {
 	Data Data1  `json:"data"`
 }
 
+func main() {
+	http.Transport{}
+	resp, err := http.Get("http://localhost:9006/product/getProductStatistic?factoryId=3")
+	printResponse(resp, err)
+
+	defer resp.Body.Close()
+
+	fmt.Println("========")
+	sendGetRequest()
+}
+
+func sendGetRequest() {
+	client := &http.Client{}
+
+	req, err := http.NewRequest("GET", "http://localhost:9006/product/getProductStatistic?factoryId=3", nil)
+	if err != nil {
+		fmt.Println("err:", err)
+	}
+	req.Header.Add("Authorization", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJqd3QiLCJpYXQiOjE1MDE0ODk3MTksInN1YiI6IntcInVzZXJUeXBlXCI6MSxcImVudGVycHJpc2VJZFwiOjIsXCJ1c2VyTmFtZVwiOlwiMTg2NjI3MTA5OTZ1NGxJUE9tVWcyRDRNQTZOVzN4UFwifSIsImV4cCI6MTUwNDA4MTcxOX0.66t06IZ6u_EBqIlI_gq7p3jvvHjSuW_Kpcf-dDCzCGo")
+
+	resp, err := client.Do(req)
+	printResponse(resp, err)
+
+	defer resp.Body.Close()
+}
+
 func printResponse(resp *http.Response, err error) {
 	if err != nil {
 		fmt.Println("err:", err)
@@ -58,27 +84,6 @@ func printResponse(resp *http.Response, err error) {
 	}
 }
 
-func main() {
-	resp, err := http.Get("http://localhost:9006/product/getProductStatistic?factoryId=3")
-	printResponse(resp, err)
+func test()  {
 
-	defer resp.Body.Close()
-
-	fmt.Println("========")
-	sendGetRequest()
-}
-
-func sendGetRequest() {
-	client := &http.Client{}
-
-	req, err := http.NewRequest("GET", "http://localhost:9006/product/getProductStatistic?factoryId=3", nil)
-	if err != nil {
-		fmt.Println("err:", err)
-	}
-	req.Header.Add("Authorization", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJqd3QiLCJpYXQiOjE1MDE0ODk3MTksInN1YiI6IntcInVzZXJUeXBlXCI6MSxcImVudGVycHJpc2VJZFwiOjIsXCJ1c2VyTmFtZVwiOlwiMTg2NjI3MTA5OTZ1NGxJUE9tVWcyRDRNQTZOVzN4UFwifSIsImV4cCI6MTUwNDA4MTcxOX0.66t06IZ6u_EBqIlI_gq7p3jvvHjSuW_Kpcf-dDCzCGo")
-
-	resp, err := client.Do(req)
-	printResponse(resp, err)
-
-	defer resp.Body.Close()
 }

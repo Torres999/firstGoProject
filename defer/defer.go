@@ -8,6 +8,7 @@ import (
 func main() {
 	f := createFile("/tmp/defer.txt")
 	defer closeFile(f)
+	defer closeFile1(f)//先与上一句执行
 	writeFile(f)
 }
 
@@ -27,3 +28,7 @@ func closeFile(f *os.File) {
 	fmt.Println("closing")
 	f.Close()
 }
+func closeFile1(f *os.File) {
+	fmt.Println("closing1")
+}
+
