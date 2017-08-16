@@ -1,4 +1,4 @@
-package controller
+package mvc
 
 import (
 	"log"
@@ -11,5 +11,7 @@ type Controller struct {
 
 func (t *Controller) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	log.Printf("【controller】process a request,snapshort:", time.Now())
-	w.Write([]byte("【controller】process a request,snapshort:" + time.Now()))
+	w.Write([]byte("【controller】process a request,snapshort:" + time.Now().String()))
+
+	testService()
 }

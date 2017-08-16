@@ -1,4 +1,7 @@
-package controller
+package mvc
 
-func main() {
+import "fmt"
+
+func testService() {
+	fmt.Println("[Service]service......")
 }

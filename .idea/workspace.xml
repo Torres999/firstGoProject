@@ -2,76 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7d61f6-7cdf-4f65-a3c2-dc1e675221f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstGoProject.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/http/server.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpService/mvcController.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httpService/mvcService.go" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo/demo.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/Memo.yaml" afterPath="$PROJECT_DIR$/Memo.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/README.yaml" afterPath="$PROJECT_DIR$/README.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/atomic/atomicAdd.go" afterPath="$PROJECT_DIR$/atomic/atomicAdd.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/atomic/mutexes.go" afterPath="$PROJECT_DIR$/atomic/mutexes.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/atomic/statefulGoroutines.go" afterPath="$PROJECT_DIR$/atomic/statefulGoroutines.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/Base64Encoding.go" afterPath="$PROJECT_DIR$/basicPoint/Base64Encoding.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/Command-LineArguments.go" afterPath="$PROJECT_DIR$/basicPoint/Command-LineArguments.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/EnvironmentVariables.go" afterPath="$PROJECT_DIR$/basicPoint/EnvironmentVariables.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/URLParsing.go" afterPath="$PROJECT_DIR$/basicPoint/URLParsing.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/arraySilceMap.go" afterPath="$PROJECT_DIR$/basicPoint/arraySilceMap.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/constants.go" afterPath="$PROJECT_DIR$/basicPoint/constants.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/errorPanic.go" afterPath="$PROJECT_DIR$/basicPoint/errorPanic.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/errorsInterface.go" afterPath="$PROJECT_DIR$/basicPoint/errorsInterface.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/forIfElse.go" afterPath="$PROJECT_DIR$/basicPoint/forIfElse.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/functionClosures.go" afterPath="$PROJECT_DIR$/basicPoint/functionClosures.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/functionDemo.go" afterPath="$PROJECT_DIR$/basicPoint/functionDemo.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/functionRecursion.go" afterPath="$PROJECT_DIR$/basicPoint/functionRecursion.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/interfaceDemo.go" afterPath="$PROJECT_DIR$/basicPoint/interfaceDemo.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/numberParase.go" afterPath="$PROJECT_DIR$/basicPoint/numberParase.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/parameterFunction.go" afterPath="$PROJECT_DIR$/basicPoint/parameterFunction.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/parameterRefValue.go" afterPath="$PROJECT_DIR$/basicPoint/parameterRefValue.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/randomNumbers.go" afterPath="$PROJECT_DIR$/basicPoint/randomNumbers.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/range.go" afterPath="$PROJECT_DIR$/basicPoint/range.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/struct.go" afterPath="$PROJECT_DIR$/basicPoint/struct.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/structMethods.go" afterPath="$PROJECT_DIR$/basicPoint/structMethods.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/basicPoint/switch.go" afterPath="$PROJECT_DIR$/basicPoint/switch.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/database/main.go" afterPath="$PROJECT_DIR$/database/main.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/defer/defer.go" afterPath="$PROJECT_DIR$/defer/defer.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelBuffering.go" afterPath="$PROJECT_DIR$/goroutines/channelBuffering.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelDirections.go" afterPath="$PROJECT_DIR$/goroutines/channelDirections.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRange.go" afterPath="$PROJECT_DIR$/goroutines/channelRange.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRangeClosingChannels.go" afterPath="$PROJECT_DIR$/goroutines/channelRangeClosingChannels.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelRangeOverChannels.go" afterPath="$PROJECT_DIR$/goroutines/channelRangeOverChannels.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channelSynchronization.go" afterPath="$PROJECT_DIR$/goroutines/channelSynchronization.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/channels.go" afterPath="$PROJECT_DIR$/goroutines/channels.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/goroutine.go" afterPath="$PROJECT_DIR$/goroutines/goroutine.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/nonBlockingChannelOperations.go" afterPath="$PROJECT_DIR$/goroutines/nonBlockingChannelOperations.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/goroutines/selectGoRoutineChannel.go" afterPath="$PROJECT_DIR$/goroutines/selectGoRoutineChannel.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/http/main.go" afterPath="$PROJECT_DIR$/http/sendRequest.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/io/read.go" afterPath="$PROJECT_DIR$/io/read.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/io/write.go" afterPath="$PROJECT_DIR$/io/write.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/reflect/main.go" afterPath="$PROJECT_DIR$/reflect/main.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/serializer/main.go" afterPath="$PROJECT_DIR$/serializer/main.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/shell/Exec'ing Processes.go" afterPath="$PROJECT_DIR$/shell/Exec'ing Processes.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/shell/Exit.go" afterPath="$PROJECT_DIR$/shell/Exit.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/shell/Signals.go" afterPath="$PROJECT_DIR$/shell/Signals.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/shell/Spawning Processes.go" afterPath="$PROJECT_DIR$/shell/Spawning Processes.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/sorting/sortDemo.go" afterPath="$PROJECT_DIR$/sorting/sortDemo.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/sorting/sortFunction.go" afterPath="$PROJECT_DIR$/sorting/sortFunction.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/string/formatting.go" afterPath="$PROJECT_DIR$/string/formatting.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/string/json.go" afterPath="$PROJECT_DIR$/string/json.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/string/main.go" afterPath="$PROJECT_DIR$/string/main.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/string/main1.go" afterPath="$PROJECT_DIR$/string/main1.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/string/regularExpressions.go" afterPath="$PROJECT_DIR$/string/regularExpressions.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/epoch.go" afterPath="$PROJECT_DIR$/time/epoch.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/main.go" afterPath="$PROJECT_DIR$/time/main.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/ticker.go" afterPath="$PROJECT_DIR$/time/ticker.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/timeFormattingParsing.go" afterPath="$PROJECT_DIR$/time/timeFormattingParsing.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/timeout.go" afterPath="$PROJECT_DIR$/time/timeout.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo/src/time/timers.go" afterPath="$PROJECT_DIR$/time/timers.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__demo_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__firstGoProject_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/http/server.go" afterPath="$PROJECT_DIR$/http/server.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpService/mvcController.go" afterPath="$PROJECT_DIR$/httpService/mvcController.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpService/mvcService.go" afterPath="$PROJECT_DIR$/httpService/mvcService.go" />
     </list>
     <ignored path="firstGoProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,12 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/http/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,21 +74,23 @@
       <file leaf-file-name="mvcController.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/httpService/mvcController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#20#57#0" expanded="true" />
+                <element signature="e#13#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvcService.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mvcService.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/httpService/mvcService.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding>
+                <element signature="e#13#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -239,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/atomic/mutexes.go" />
         <option value="$PROJECT_DIR$/demo/src/atomic/statefulGoroutines.go" />
         <option value="$PROJECT_DIR$/demo/src/sorting/sortDemo.go" />
         <option value="$PROJECT_DIR$/demo/src/sorting/sortFunction.go" />
@@ -288,6 +224,7 @@
         <option value="$PROJECT_DIR$/demo/src/httpService/mvcController.go" />
         <option value="$PROJECT_DIR$/demo/src/http/server.go" />
         <option value="$PROJECT_DIR$/firstGoProject.go" />
+        <option value="$PROJECT_DIR$/httpService/mvcService.go" />
         <option value="$PROJECT_DIR$/httpService/mvcController.go" />
         <option value="$PROJECT_DIR$/http/server.go" />
       </list>
@@ -930,12 +867,12 @@
       <workItem from="1502690444052" duration="128000" />
       <workItem from="1502690604763" duration="400000" />
       <workItem from="1502691035284" duration="25449000" />
-      <workItem from="1502868039176" duration="3002000" />
+      <workItem from="1502868039176" duration="3635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122605000" />
+    <option name="totallyTimeSpent" value="123238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,7 +885,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -959,7 +896,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28782895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4161184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4161184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27960527" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1157,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,6 +1144,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2385" column="25" lean-forward="false" selection-start-line="2385" selection-start-column="21" selection-end-line="2385" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,29 +1316,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/server.go">
+    <entry file="file://$PROJECT_DIR$/httpService/mvcService.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#13#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/httpService/mvcController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#20#57#0" expanded="true" />
+            <element signature="e#13#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httpService/mvcService.go">
+    <entry file="file://$PROJECT_DIR$/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
