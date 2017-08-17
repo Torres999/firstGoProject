@@ -13,6 +13,7 @@ func main() {
 		fmt.Println("no message received")
 	}
 
+	//why ？ 作用于 gorouting 之间
 	msg := "hi"
 	select {
 	case messages <- msg:

@@ -1,11 +1,16 @@
 #https://gobyexample.com
-1: 方法
+goroutines: 当前资源形成的指令集的快照，这些指令集等待被执行 # 参考：DaisyChain.go
+goroutines is not thread,if you think of it as a very cheap thread,you won't be far off.
+
+1.方法:
   - 普通方法格式：方法名（参数）返回值----func plus(a int, b int) int {}
   - 结构体或者接口的实现方法格式：(参数[不是普通类型是具体的结构体名字])方法名／返回值----func (r rect) area() float64 {}
   - 结构体或者接口的实现方法格式：参数中都可以使用指针
 
-2: 通道
-  # http://blog.csdn.net/kjfcpua/article/details/18265441
+2.通道:
+  # Don't communicate by sharing memory,share memory by communication.
+  # http.//blog.csdn.net/kjfcpua/article/details/18265441
+  Channels are the pipes that connect concurrent goroutines.
   - 无缓冲信道进出顺序：参考channels.go(先到先出)
   - 缓冲信道会在满容量的时候加锁。如果不把容量中的取走，不管有没有取数据的代码都会报错 - deadlock!：参考channelBuffering.go(先到先出)
   - 通道进出不一定要一对一，多个进一个出也可以：参考channelDirections.go
@@ -25,13 +30,13 @@
   - 无缓冲的信道是一批数据一个一个的「流进流出」，缓冲信道则是一个一个存储，然后一起流出去
   - 不在main线程里的channel，不遵循以上死锁规则？？？？
 
-3: 键盘输入
+3.键盘输入:
 	fmt.Scanln(&str)，参考channels.go
 
-4: 接口
+4.接口:
 	多个实现的时候，把接口转化成具体某一个实现类：errorsInterface.go
 
-5: 反射
+5.反射:
     #https://www.golangtc.com/t/53317f90320b5261e0000058
 	reflect是用来取interface的内容的，而空interface（interface{}）主要包括Value（data域）、Type（itab）两个对象。
 
@@ -40,8 +45,14 @@
 
 	如果是channel，slice，func也一样，Value存的是空值，Type存的是 func(int,int)(int,int)或者func(float,float)(float,float)。
 
+6.TimeOut: After function returns a channel that blocks for the specified duration.After the interval,the channel delivers
+the current time,once.(返回一个在指定持续时间内阻塞的通道。这段间隔过后，通道会传送一次当前时间)
 
-
+7.Select: a control structure unique to concurrency, it's like a switch,but each case is a communication:
+  -All channels are evaluated
+  -Selection blocks until one communication can proceed,which then does
+  -If multiple can proceed,select chooses pseudo-randomly
+  -A default clause,if present,executes immediately if no channel is ready.
 
 
 
