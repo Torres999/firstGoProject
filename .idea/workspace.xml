@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c7d61f6-7cdf-4f65-a3c2-dc1e675221f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/googleSearch2.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Memo.yaml" afterPath="$PROJECT_DIR$/Memo.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basicPoint/arraySilceMap.go" afterPath="$PROJECT_DIR$/basicPoint/arraySilceMap.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/googleSearch.go" afterPath="$PROJECT_DIR$/googleSearch.go" />
     </list>
     <ignored path="firstGoProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Memo.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Memo.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memo.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -64,8 +60,8 @@
       <file leaf-file-name="googleSearch2.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googleSearch2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="-52">
+              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -93,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arraySilceMap.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="arraySilceMap.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basicPoint/arraySilceMap.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="95" column="69" lean-forward="true" selection-start-line="95" selection-start-column="69" selection-end-line="95" selection-end-column="69" />
+            <state relative-caret-position="143">
+              <caret line="94" column="90" lean-forward="false" selection-start-line="94" selection-start-column="90" selection-end-line="94" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -1053,12 +1049,12 @@
       <workItem from="1502690604763" duration="400000" />
       <workItem from="1502691035284" duration="25449000" />
       <workItem from="1502868039176" duration="15226000" />
-      <workItem from="1502950134085" duration="20005000" />
+      <workItem from="1502950134085" duration="20550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154834000" />
+    <option name="totallyTimeSpent" value="155379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1384,10 +1380,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Memo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="61" lean-forward="false" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/googleSearch2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="-52">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
@@ -1396,16 +1400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basicPoint/arraySilceMap.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="95" column="69" lean-forward="true" selection-start-line="95" selection-start-column="69" selection-end-line="95" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memo.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="143">
+          <caret line="94" column="90" lean-forward="false" selection-start-line="94" selection-start-column="90" selection-end-line="94" selection-end-column="90" />
           <folding />
         </state>
       </provider>

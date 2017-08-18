@@ -92,7 +92,7 @@ func slicesFunc() {
 	//fmt.Println("2d: ", twoD)
 
 	// 切片地址可变
-	twoC := make([]int, 3, 5)//make([]T, length, capacity)，初始值为3个0
+	twoC := make([]int, 3, 5)//make([]T, length, capacity)，初始值为3个0，如果是string的，同样会有三个空的初始化值
 	twoC = append(twoC, 1, 2, 3)//超出容量后一倍扩容，切片扩容后会形成一个新的切片，具体参考：GoogleSearch2.go
 	for _, v := range twoC {
 		fmt.Printf("\n%d,", v)
