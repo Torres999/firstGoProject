@@ -20,14 +20,28 @@ type Body1 struct {
 }
 
 func main() {
-	http.Transport{}
-	resp, err := http.Get("http://localhost:9006/product/getProductStatistic?factoryId=3")
+	//http.Transport{}
+	//resp, err := http.Get("http://localhost:9006/product/getProductStatistic?factoryId=3")
+	//printResponse(resp, err)
+	//
+	//defer resp.Body.Close()
+	//
+	//fmt.Println("========")
+	//sendGetRequest()
+
+	fmt.Println("========")
+	client := &http.Client{}
+
+	req, err := http.NewRequest("GET", "http://localhost:18080/aa/?source=/Users/lilinlin/Downloads/timg.jpeg", nil)
+	if err != nil {
+		fmt.Println("err:", err)
+	}
+	//req.Header.Add("Authorization", "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJqd3QiLCJpYXQiOjE1MDE0ODk3MTksInN1YiI6IntcInVzZXJUeXBlXCI6MSxcImVudGVycHJpc2VJZFwiOjIsXCJ1c2VyTmFtZVwiOlwiMTg2NjI3MTA5OTZ1NGxJUE9tVWcyRDRNQTZOVzN4UFwifSIsImV4cCI6MTUwNDA4MTcxOX0.66t06IZ6u_EBqIlI_gq7p3jvvHjSuW_Kpcf-dDCzCGo")
+
+	resp, err := client.Do(req)
 	printResponse(resp, err)
 
 	defer resp.Body.Close()
-
-	fmt.Println("========")
-	sendGetRequest()
 }
 
 func sendGetRequest() {

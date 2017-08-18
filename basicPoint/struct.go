@@ -8,12 +8,14 @@ type person struct {
 }
 
 func main() {
+	// 省略字段名
 	fmt.Println(person{"jack", 14})
 
+	// 省略部分字段
 	fmt.Println(person{name: "jack1"}) //{jack1 0},int's default value is 0.
-
 	fmt.Println(person{age: 14})
 
+	// 全部字段名
 	s := person{name: "Sean", age: 50}
 	//s = &person{name: "Sean", age: 50}
 	fmt.Println("Getter:", s.name)

@@ -18,6 +18,9 @@ func arrayFunc() {
 	var a [5]int
 	fmt.Println("emp:", a)
 
+	var a1 []int
+	fmt.Println("emp:", a1)
+
 	a[4] = 100
 	fmt.Println("set:", a)
 	fmt.Println("get:", a[4])

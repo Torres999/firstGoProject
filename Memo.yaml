@@ -6,11 +6,22 @@ goroutines is not thread,if you think of it as a very cheap thread,you won't be 
   - 普通方法格式：方法名（参数）返回值----func plus(a int, b int) int {}
   - 结构体或者接口的实现方法格式：(参数[不是普通类型是具体的结构体名字])方法名／返回值----func (r rect) area() float64 {}
   - 结构体或者接口的实现方法格式：参数中都可以使用指针
+  - 结构体内嵌匿名成员
+      type person struct {
+        string  //直接写类型，匿名
+        age int
+      }
+      func main() {
+        //结构体匿名成员初始化
+        p := person{string: "aa", age: 18}//省略部分字段:person{string: "taozs"}, 省略字段名:person{“taozs”, 18}，但不可以同时部分省略
+        //结构体匿名成员访问
+        fmt.Println(p.string) //注意不能用强制类型转换（类型断言）：p.(string)
+      }
 
 2.通道:
   # Don't communicate by sharing memory,share memory by communication.
   # http.//blog.csdn.net/kjfcpua/article/details/18265441
-  Channels are the pipes that connect concurrent goroutines.
+  Channels are the pipes that connect concurrent goroutines.同一个线程里中间一定要经过一个goroutines操作
   - 无缓冲信道进出顺序：参考channels.go(先到先出)
   - 缓冲信道会在满容量的时候加锁。如果不把容量中的取走，不管有没有取数据的代码都会报错 - deadlock!：参考channelBuffering.go(先到先出)
   - 通道进出不一定要一对一，多个进一个出也可以：参考channelDirections.go
@@ -53,6 +64,11 @@ the current time,once.(返回一个在指定持续时间内阻塞的通道。这
   -Selection blocks until one communication can proceed,which then does
   -If multiple can proceed,select chooses pseudo-randomly
   -A default clause,if present,executes immediately if no channel is ready.
+
+
+8.原子操作:
+  - atomic.add/load
+  - 加锁mutex.Lock()
 
 
 
