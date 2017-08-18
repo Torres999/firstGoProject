@@ -1,11 +1,11 @@
 package main
 
 import (
-	"log"
-	"net/http"
 	"firstGoProject/httpService"
 	"fmt"
 	"html"
+	"log"
+	"net/http"
 )
 
 func main() {

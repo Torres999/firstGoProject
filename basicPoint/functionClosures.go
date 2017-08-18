@@ -41,10 +41,10 @@ func main() {
 	fmt.Println("nextInt2:", nextInt2())
 	fmt.Println("----------")
 
-	p1 := Player{name:"1", level:4}
-	p2 := Player{name:"2", level:3}
-	p3 := Player{name:"3", level:2}
-	p4 := Player{name:"4", level:1}
+	p1 := Player{name: "1", level: 4}
+	p2 := Player{name: "2", level: 3}
+	p3 := Player{name: "3", level: 2}
+	p4 := Player{name: "4", level: 1}
 
 	t1 := Team{p1, p2, p3, p4}
 

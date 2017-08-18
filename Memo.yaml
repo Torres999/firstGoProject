@@ -18,6 +18,7 @@ goroutines is not thread,if you think of it as a very cheap thread,you won't be 
         fmt.Println(p.string) //注意不能用强制类型转换（类型断言）：p.(string)
       }
 
+
 2.通道:
   # Don't communicate by sharing memory,share memory by communication.
   # http.//blog.csdn.net/kjfcpua/article/details/18265441
@@ -41,13 +42,12 @@ goroutines is not thread,if you think of it as a very cheap thread,you won't be 
   - 无缓冲的信道是一批数据一个一个的「流进流出」，缓冲信道则是一个一个存储，然后一起流出去
   - 不在main线程里的channel，不遵循以上死锁规则？？？？
 
-3.键盘输入:
-	fmt.Scanln(&str)，参考channels.go
 
-4.接口:
+3.接口:
 	多个实现的时候，把接口转化成具体某一个实现类：errorsInterface.go
 
-5.反射:
+
+4.反射:
     #https://www.golangtc.com/t/53317f90320b5261e0000058
 	reflect是用来取interface的内容的，而空interface（interface{}）主要包括Value（data域）、Type（itab）两个对象。
 
@@ -56,20 +56,43 @@ goroutines is not thread,if you think of it as a very cheap thread,you won't be 
 
 	如果是channel，slice，func也一样，Value存的是空值，Type存的是 func(int,int)(int,int)或者func(float,float)(float,float)。
 
-6.TimeOut: After function returns a channel that blocks for the specified duration.After the interval,the channel delivers
-the current time,once.(返回一个在指定持续时间内阻塞的通道。这段间隔过后，通道会传送一次当前时间)
 
-7.Select: a control structure unique to concurrency, it's like a switch,but each case is a communication:
+5.TimeOut: After function returns a channel that blocks for the specified duration.After the interval,the channel delivers
+  the current time,once.(返回一个在指定持续时间内阻塞的通道。这段间隔过后，通道会传送一次当前时间)
+
+
+6.Select: a control structure unique to concurrency, it's like a switch,but each case is a communication:
   -All channels are evaluated
   -Selection blocks until one communication can proceed,which then does
   -If multiple can proceed,select chooses pseudo-randomly
   -A default clause,if present,executes immediately if no channel is ready.
 
 
-8.原子操作:
+7.原子操作:
   - atomic.add/load
   - 加锁mutex.Lock()
 
+
+8.&和*:
+  - 这两个操作符均有多个用途。但是当它们作为地址操作符出现时，前者的作用是取址，而后者的作用是取值。
+  - 当地址操作符&被应用到一个值上时会取出指向该值的指针值，而当地址操作符*被应用到一个指针值上时会取出该指针指向的那个值。它们可以被视为相反的操作。
+
+
+9.断言:
+  - 直接断言使用 object.(object)，如：a.(string)，为防止直接使用报panic可以如下使用
+    value, ok := a.(string)
+    if !ok {}
+  - 配合关键字type使用：
+    var t interface{}
+    switch t := t.(type) {
+      case bool:
+          fmt.Printf("boolean %t\n", t)             // t has type bool
+      case int:
+          fmt.Printf("pointer to integer %d\n", *t) // t has type *int
+      default:
+          fmt.Printf("unexpected type %T", t)       // %T prints whatever type t has
+    }
+  - 类型转换的时候，string不需要使用断言
 
 
 

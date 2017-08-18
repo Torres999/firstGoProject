@@ -101,6 +101,8 @@ func main() {
 	interfaceObj2.(*testStruct2).str = "2341234"
 	fmt.Println("interfaceObj1:", interfaceObj1)
 	fmt.Println("interfaceObj2:", interfaceObj2)
+	fmt.Println("xxxx:", &testStruct1{"123asdf"})
+	fmt.Println("xxxx:", testStruct1{"123asdf"})
 }
 
 //========================================

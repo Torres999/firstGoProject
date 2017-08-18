@@ -25,7 +25,7 @@ pointer changes the value at the referenced address.
 */
 func zeroptr(iptr *int) {
 	fmt.Println("========")
-	*iptr = 0
+	iptr = 0
 }
 
 func zeroval(ival int) {

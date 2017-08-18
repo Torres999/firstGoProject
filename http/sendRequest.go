@@ -98,6 +98,6 @@ func printResponse(resp *http.Response, err error) {
 	}
 }
 
-func test()  {
+func test() {
 
 }
