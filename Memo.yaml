@@ -1,6 +1,7 @@
 #https://gobyexample.com
 goroutines: 当前资源形成的指令集的快照，这些指令集等待被执行 # 参考：DaisyChain.go
 goroutines is not thread,if you think of it as a very cheap thread,you won't be far off.
+In Go, arguments are passed by value.
 
 1.方法:
   - 普通方法格式：方法名（参数）返回值----func plus(a int, b int) int {}

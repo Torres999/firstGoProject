@@ -41,11 +41,12 @@ func (v SearchTools) Search() []string {
 }
 
 func main() {
-	var msg = "PLA055"
+	var msg = "PLA-055"
 	result := &SearchTools{
 		ViedoSearch{msg},
 		WebSearch{msg},
 		NewsSearch{msg},
 	}
+	fmt.Printf("%#v\n", result.Search())
 	fmt.Printf("%#v\n", result.Search())
 }

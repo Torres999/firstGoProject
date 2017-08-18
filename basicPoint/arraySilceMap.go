@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	arrayFunc()
+	//arrayFunc()
 
 	slicesFunc()
 
@@ -45,57 +45,57 @@ func arrayFunc() {
 	 2.Array是在声明的时候都确定了长度，之后不可更改。Slice和数组类似，也是表示一个有序元素，但这个序列的长度可变。
 */
 func slicesFunc() {
-	s := make([]string, 3)
-	fmt.Println("emp:", s)
-	fmt.Println("emp'len:", len(s))
-
-	s[0] = "a"
-	s[1] = "b"
-	s[2] = "c"
-	fmt.Println("set:", s)
-	fmt.Println("get:", s[2])
-
-	fmt.Println("len:", len(s))
-
-	s = append(s, "d")
-	s = append(s, "e", "f")
-	fmt.Println("append:", s)
-
-	c := make([]string, len(s))
-	copy(c, s)
-	fmt.Println("cpy:", c)
-
-	//这里的[low:high]，用数学集合的方式来讲，就是[low, high)，即左闭右开。
-	//这种创建slice的方式，不需要make()函数。
-	l := s[2:5]
-	fmt.Println("s[2:5]:", l)
-	fmt.Println("地址比较，切片前value=c的元素地址:", &s[2]) //0xc420068080
-	fmt.Println("地址比较，切片后value=c的元素地址:", &l[0]) //0xc420068080
-
-	l = s[:5]
-	fmt.Println("s[:5]:", l)
-
-	l = s[2:]
-	fmt.Println("s[2:]:", l)
-
-	t := []string{"g", "h", "i"}
-	fmt.Println("dcl:", t)
-
-	twoD := make([][]int, 3)
-	for i := 0; i < 3; i++ {
-		innerLen := i + 1
-		twoD[i] = make([]int, innerLen)
-		for j := 0; j < innerLen; j++ {
-			twoD[i][j] = i + j
-		}
-	}
-	fmt.Println("2d: ", twoD)
+	//s := make([]string, 3)
+	//fmt.Println("emp:", s)
+	//fmt.Println("emp'len:", len(s))
+	//
+	//s[0] = "a"
+	//s[1] = "b"
+	//s[2] = "c"
+	//fmt.Println("set:", s)
+	//fmt.Println("get:", s[2])
+	//
+	//fmt.Println("len:", len(s))
+	//
+	//s = append(s, "d")
+	//s = append(s, "e", "f")
+	//fmt.Println("append:", s)
+	//
+	//c := make([]string, len(s))
+	//copy(c, s)
+	//fmt.Println("cpy:", c)
+	//
+	////这里的[low:high]，用数学集合的方式来讲，就是[low, high)，即左闭右开。
+	////这种创建slice的方式，不需要make()函数。
+	//l := s[2:5]
+	//fmt.Println("s[2:5]:", l)
+	//fmt.Println("地址比较，切片前value=c的元素地址:", &s[2]) //0xc420068080
+	//fmt.Println("地址比较，切片后value=c的元素地址:", &l[0]) //0xc420068080
+	//
+	//l = s[:5]
+	//fmt.Println("s[:5]:", l)
+	//
+	//l = s[2:]
+	//fmt.Println("s[2:]:", l)
+	//
+	//t := []string{"g", "h", "i"}
+	//fmt.Println("dcl:", t)
+	//
+	//twoD := make([][]int, 3)
+	//for i := 0; i < 3; i++ {
+	//	innerLen := i + 1
+	//	twoD[i] = make([]int, innerLen)
+	//	for j := 0; j < innerLen; j++ {
+	//		twoD[i][j] = i + j
+	//	}
+	//}
+	//fmt.Println("2d: ", twoD)
 
 	// 切片地址可变
-	twoC := make([]int, 3, 5)
-	twoC = append(twoC, 1, 2, 3, 4)
+	twoC := make([]int, 3, 5)//make([]T, length, capacity)，初始值为3个0
+	twoC = append(twoC, 1, 2, 3)//超出容量后一倍扩容，切片扩容后会形成一个新的切片，具体参考：GoogleSearch2.go
 	for _, v := range twoC {
-		fmt.Printf("%d,", v)
+		fmt.Printf("\n%d,", v)
 	}
 	fmt.Printf("\n新分配内存后切片容量%d", cap(twoC))
 	fmt.Printf("\n新分配内存后切片长度%d", len(twoC))
