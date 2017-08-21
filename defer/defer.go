@@ -10,6 +10,8 @@ func main() {
 	defer closeFile(f)
 	defer closeFile1(f) //先于上一句执行
 	writeFile(f)
+
+	fmt.Println(fDefer())
 }
 
 func createFile(p string) *os.File {
@@ -30,4 +32,14 @@ func closeFile(f *os.File) {
 }
 func closeFile1(f *os.File) {
 	fmt.Println("closing1")
+}
+
+func fDefer() (result int) {
+	fmt.Println("111")
+	defer func() {
+		result++
+		fmt.Println("333")
+	}()
+	fmt.Println("222")
+	return result
 }
