@@ -33,7 +33,7 @@ func main() {
 		go foo(i)
 	}
 	time.Sleep(time.Second)
-	for i := 0; i < 1; i++ { //i<=10都可以，超过count就会报死锁的错，因为通道干涸了
+	for i := 0; i < 9; i++ { //i<=10都可以，超过count就会报死锁的错，因为通道干涸了
 		<-quit
 	}
 }
